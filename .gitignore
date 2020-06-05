@@ -1,0 +1,15 @@
+
+__pycache__/
+*.py[cod]
+
+*.so
+*.vscode
+*.xml
+*.txt
+
+bin/
+build/
+devel/
+include/
+srv/
+
