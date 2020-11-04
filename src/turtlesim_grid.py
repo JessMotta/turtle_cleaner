@@ -29,7 +29,7 @@ class TurtleBot():
     
 
     def poseCallback(self, data):
-        #callback function which is called when a message of type POse is received by the subscriber
+        #callback function which is called when a message of type POse is recieved by the subscriber
         self.pose = data
         self.pose.x = round(self.pose.x, 4)
         self.pose.y = round(self.pose.y, 4)
